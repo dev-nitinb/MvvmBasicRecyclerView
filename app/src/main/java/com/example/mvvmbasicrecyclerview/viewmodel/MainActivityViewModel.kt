@@ -19,7 +19,7 @@ class MainActivityViewModel : ViewModel() {
             userRepository=UserRepository.getInstance()
         }
 
-        if(alUserLiveData.value!!.size==0)
+        if(alUserLiveData.value == null)
         alUserLiveData=userRepository!!.getUsers()
     }
 
