@@ -1,4 +1,4 @@
-package com.example.mvvmbasicrecyclerview.repositorie
+package com.example.mvvmbasicrecyclerview.repository
 
 import androidx.lifecycle.MutableLiveData
 import com.example.mvvmbasicrecyclerview.model.User

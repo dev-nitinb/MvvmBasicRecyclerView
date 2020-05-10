@@ -5,7 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.mvvmbasicrecyclerview.model.User
-import com.example.mvvmbasicrecyclerview.repositorie.UserRepository
+import com.example.mvvmbasicrecyclerview.repository.UserRepository
 
 
 class MainActivityViewModel : ViewModel() {
@@ -19,6 +19,7 @@ class MainActivityViewModel : ViewModel() {
             userRepository=UserRepository.getInstance()
         }
 
+        if(alUserLiveData.value!!.size==0)
         alUserLiveData=userRepository!!.getUsers()
     }
 

@@ -1,4 +1,4 @@
-package com.example.mvvmbasicrecyclerview
+package com.example.mvvmbasicrecyclerview.activity
 
 import android.os.Bundle
 import android.view.View
@@ -9,6 +9,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.mvvmbasicrecyclerview.R
 import com.example.mvvmbasicrecyclerview.adapter.RecyclerViewAdapter
 import com.example.mvvmbasicrecyclerview.model.User
 import com.example.mvvmbasicrecyclerview.viewmodel.MainActivityViewModel
